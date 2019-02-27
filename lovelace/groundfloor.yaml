@@ -46,20 +46,10 @@ cards:
 
     - type: vertical-stack    
       cards: 
-        - type: custom:compact-custom-header
         - type: custom:plan-coordinates                    
         - type: picture-elements
           image: /local/images/gelijkvloers6.jpg
           elements:
-            - type: state-icon
-              entity: light.living           
-              tap_action: 
-                action: toggle
-              style:              
-                left: 10%
-                top: 10%
-                "--paper-item-icon-color": grey
-                "--paper-item-icon-active-color": yellow
             - type: image
               entity: light.living           
               tap_action: 
@@ -68,8 +58,233 @@ cards:
                 "on": /local/images/lightbulb-on.svg
                 "off": /local/images/lightbulb.svg
               style:              
-                left: 55%
-                top: 63%
+                left: 55.5%
+                top: 62%
               state_filter:
                  "on":  sepia(1) saturate(12) hue-rotate(0deg)
-                 "off": invert(0.2)
+                 "off": invert(0)
+            - type: image
+              entity: light.vide
+              tap_action:
+                action: more-info
+              state_image:
+                "on": /local/images/lightbulb-on.svg
+                "off": /local/images/lightbulb.svg
+              style:
+                left: 55.5%
+                top: 75%
+              state_filter:
+                 "on":  sepia(1) saturate(12) hue-rotate(0deg)
+                 "off": invert(0)
+            - type: image
+              entity: light.zithoek_muur
+              tap_action:
+                action: more-info
+              state_image:
+                "on": /local/images/lightbulb-on.svg
+                "off": /local/images/lightbulb.svg
+              style:
+                left: 67%
+                top: 68%
+              state_filter:
+                 "on":  sepia(1) saturate(12) hue-rotate(0deg)
+                 "off": invert(0)
+            - type: image
+              entity: light.eethoek_muur
+              tap_action:
+                action: more-info
+              state_image:
+                "on": /local/images/lightbulb-on.svg
+                "off": /local/images/lightbulb.svg
+              style:
+                left: 23%
+                top: 73%
+              state_filter:
+                 "on":  sepia(1) saturate(12) hue-rotate(0deg)
+                 "off": invert(0)
+            - type: image
+              entity: light.eettafel
+              tap_action:
+                action: more-info
+              state_image:
+                "on": /local/images/lightbulb-on.svg
+                "off": /local/images/lightbulb.svg
+              style:
+                left: 28%
+                top: 65%
+              state_filter:
+                 "on":  sepia(1) saturate(12) hue-rotate(0deg)
+                 "off": invert(0)
+# -------------------------------------------------------------------------
+# SWITCHES
+# -------------------------------------------------------------------------
+            - type: image
+              entity: switch.achtergevel
+              tap_action:
+                action: toggle
+              state_image:
+                "on": /local/images/lightbulb-on.svg
+                "off": /local/images/lightbulb.svg
+              style:
+                left: 12%
+                top: 52%
+              state_filter:
+                 "on":  sepia(1) saturate(12) hue-rotate(0deg)
+                 "off": invert(0)
+            - type: image
+              entity: switch.berging
+              tap_action:
+                action: toggle
+              state_image:
+                "on": /local/images/lightbulb-on.svg
+                "off": /local/images/lightbulb.svg
+              style:
+                left: 28%
+                top: 28%
+              state_filter:
+                 "on":  sepia(1) saturate(12) hue-rotate(0deg)
+                 "off": invert(0)
+            - type: image
+              entity: switch.dampkapverlichting
+              tap_action:
+                action: toggle
+              state_image:
+                "on": /local/images/lightbulb-on.svg
+                "off": /local/images/lightbulb.svg
+              style:
+                left: 20.5%
+                top: 43.7%
+              state_filter:
+                 "on":  sepia(1) saturate(12) hue-rotate(0deg)
+                 "off": invert(0)
+            - type: image
+              entity: switch.garage
+              tap_action:
+                action: toggle
+              state_image:
+                "on": /local/images/lightbulb-on.svg
+                "off": /local/images/lightbulb.svg
+              style:
+                left: 66%
+                top: 36%
+              state_filter:
+                 "on":  sepia(1) saturate(12) hue-rotate(0deg)
+                 "off": invert(0)
+            - type: image
+              entity: switch.hal
+              tap_action:
+                action: toggle
+              state_image:
+                "on": /local/images/lightbulb-on.svg
+                "off": /local/images/lightbulb.svg
+              style:
+                left: 47%
+                top: 40%
+              state_filter:
+                 "on":  sepia(1) saturate(12) hue-rotate(0deg)
+                 "off": invert(0)
+            - type: image
+              entity: switch.keuken_spots
+              tap_action:
+                action: toggle
+              state_image:
+                "on": /local/images/lightbulb-on.svg
+                "off": /local/images/lightbulb.svg
+              style:
+                left: 30%
+                top: 43%
+              state_filter:
+                 "on":  sepia(1) saturate(12) hue-rotate(0deg)
+                 "off": invert(0)
+            - type: image
+              entity: switch.kookeiland_tl
+              tap_action:
+                action: toggle
+              state_image:
+                "on": /local/images/lightbulb-on.svg
+                "off": /local/images/lightbulb.svg
+              style:
+                left: 29%
+                top: 50%
+              state_filter:
+                 "on":  sepia(1) saturate(12) hue-rotate(0deg)
+                 "off": invert(0)
+            - type: image
+              entity: switch.terras_vooraan
+              tap_action:
+                action: toggle
+              state_image:
+                "on": /local/images/lightbulb-on.svg
+                "off": /local/images/lightbulb.svg
+              style:
+                left: 75%
+                top: 68%
+              state_filter:
+                 "on":  sepia(1) saturate(12) hue-rotate(0deg)
+                 "off": invert(0)
+            - type: image
+              entity: switch.voordeur
+              tap_action:
+                action: toggle
+              state_image:
+                "on": /local/images/lightbulb-on.svg
+                "off": /local/images/lightbulb.svg
+              style:
+                left: 47.5%
+                top: 20%
+              state_filter:
+                 "on":  sepia(1) saturate(12) hue-rotate(0deg)
+                 "off": invert(0)
+            - type: image
+              entity: switch.wasplaats
+              tap_action:
+                action: toggle
+              state_image:
+                "on": /local/images/lightbulb-on.svg
+                "off": /local/images/lightbulb.svg
+              style:
+                left: 28%
+                top: 28%
+              state_filter:
+                 "on":  sepia(1) saturate(12) hue-rotate(0deg)
+                 "off": invert(0)
+            - type: image
+              entity: switch.wc_beneden
+              tap_action:
+                action: toggle
+              state_image:
+                "on": /local/images/lightbulb-on.svg
+                "off": /local/images/lightbulb.svg
+              style:
+                left: 39%
+                top: 25%
+              state_filter:
+                 "on":  sepia(1) saturate(12) hue-rotate(0deg)
+                 "off": invert(0)
+            - type: image
+              entity: switch.zijgevel_tegen_berging
+              tap_action:
+                action: toggle
+              state_image:
+                "on": /local/images/lightbulb-on.svg
+                "off": /local/images/lightbulb.svg
+              style:
+                left: 30%
+                top: 17%
+              state_filter:
+                 "on":  sepia(1) saturate(12) hue-rotate(0deg)
+                 "off": invert(0)
+            - type: image
+              entity: switch.zijgevel_tegen_garage
+              tap_action:
+                action: toggle
+              state_image:
+                "on": /local/images/lightbulb-on.svg
+                "off": /local/images/lightbulb.svg
+              style:
+                left: 65%
+                top: 17%
+              state_filter:
+                 "on":  sepia(1) saturate(12) hue-rotate(0deg)
+                 "off": invert(0)
+
