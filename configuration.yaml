@@ -87,6 +87,7 @@ knx:
 switch: !include switch.yaml
 light: !include light.yaml
 sensor: !include sensor.yaml
+binary_sensor: !include binary_sensor.yaml
 scene: !include scene.yaml
 
 upnp:

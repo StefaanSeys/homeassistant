@@ -287,4 +287,27 @@ cards:
               state_filter:
                  "on":  sepia(1) saturate(12) hue-rotate(0deg)
                  "off": invert(0)
-
+# -------------------------------------------------------------------------
+# BINARY SENSORS
+# -------------------------------------------------------------------------
+            - type: state-icon
+              entity: binary_sensor.voordeur
+              style:
+                left: 47%
+                top: 13%
+                "--paper-item-icon-color": lightgreen
+                "--paper-item-icon-active-color": "#ba1818"
+            - type: state-icon
+              entity: binary_sensor.schuifraam_rechts
+              style:
+                left: 13.5%
+                top: 45%
+                "--paper-item-icon-color": lightgreen
+                "--paper-item-icon-active-color": "#ba1818"
+            - type: state-icon
+              entity: binary_sensor.schuifraam_links
+              style:
+                left: 11%
+                top: 63%
+                "--paper-item-icon-color": lightgreen
+                "--paper-item-icon-active-color": "#ba1818"

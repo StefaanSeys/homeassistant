@@ -1,0 +1,76 @@
+  - platform: knx
+    address: '14/0/0'
+    name: Achterdeur
+    device_class: door
+  - platform: knx
+    address: '14/0/1'
+    name: Voordeur
+    device_class: door
+  - platform: knx
+    address: '14/0/2'
+    name: Master_bedroom_1
+    device_class: window
+  - platform: knx
+    address: '14/0/3'
+    name: Master_bedroom_2
+    device_class: window
+  - platform: knx
+    address: '14/0/4'
+    name: Master_bedroom_3
+    device_class: window
+  - platform: knx
+    address: '14/0/5'
+    name: Slaapkamer_Nora_ZG
+    device_class: window
+  - platform: knx
+    address: '14/0/6'
+    name: Slaapkamer_Nora_1
+    device_class: window
+  - platform: knx
+    address: '14/0/7'
+    name: Slaapkamer_Nora_2
+    device_class: window
+  - platform: knx
+    address: '14/0/8'
+    name: Slaapkamer_Ella_ZG
+    device_class: window
+  - platform: knx
+    address: '14/0/9'
+    name: Slaapkamer_Ella_1
+    device_class: window
+  - platform: knx
+    address: '14/0/10'
+    name: Slaapkamer_Ella_2
+    device_class: window
+  - platform: knx
+    address: '14/0/11'
+    name: Badkamer
+    device_class: window
+  - platform: knx
+    address: '14/0/12'
+    name: Zithoek
+    device_class: window
+  - platform: knx
+    address: '14/0/13'
+    name: Eethoek
+    device_class: window
+  - platform: knx
+    address: '14/0/14'
+    name: Schuifraam_rechts
+    device_class: window
+  - platform: knx
+    address: '14/0/15'
+    name: Schuifraam_links
+    device_class: window
+  - platform: knx
+    address: '14/1/0'
+    name: Kelderdeur
+    device_class: door
+  - platform: knx
+    address: '14/1/1'
+    name: Berging
+    device_class: window
+  - platform: knx
+    address: '14/1/2'
+    name: Garagepoort
+    device_class: garage_door
