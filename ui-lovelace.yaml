@@ -1,0 +1,27 @@
+resources:
+  - url: /customcards/slider-entity-row.js?track=true
+    type: js
+  - url: /local/plan-coordinates.js
+    type: js
+  # https://github.com/custom-cards/tracker-card  
+  - url: /customcards/custom-lovelace/tracker-card/tracker-card.js?track=true
+    type: module
+  # https://github.com/maykar/compact-custom-header/
+  - url: /customcards/custom-lovelace/compact-custom-header/compact-custom-header.js?track=true
+    type: module
+  # https://github.com/thomasloven/lovelace-card-tools
+  - url: /customcards/custom-lovelace/thomasloven/card-tools.js?track=true
+    type: js
+  # https://github.com/thomasloven/lovelace-layout-card
+  - url: /customcards/custom-lovelace/thomasloven/layout-card.js?track=true
+    type: js
+  # my version, with style
+  - url: /customcards/custom-lovelace/stefaan/styling-layout-card.js?v=1
+    type: js
+title: Home
+#background: center / cover no-repeat url("/local/background2.jpg") fixed
+views:
+  - !include lovelace/home.yaml
+  - !include lovelace/groundfloor.yaml
+  - !include lovelace/firstlevel.yaml
+  - !include lovelace/status.yaml

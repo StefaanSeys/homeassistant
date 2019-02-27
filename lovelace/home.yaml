@@ -1,0 +1,39 @@
+title: Home
+icon: mdi:home
+
+cards:
+  - type: vertical-stack
+    cards:
+      - type: custom:compact-custom-header
+        main_config: true
+        options: clock
+        voice: hide
+        clock_format: 24
+      - type: sensor
+        entity: sensor.living
+        graph: line
+        unit: '°C'
+        detail: 2
+      - type: media-control
+        entity: media_player.viera_gt50
+      - type: entities
+        title: Living Room Lights
+        show_header_toggle: false
+        entities:
+          - entity: light.living
+            type: custom:slider-entity-row
+            toggle: false
+            icon: mdi:lightbulb
+            name: Living
+            
+  - type: vertical-stack
+    cards:
+      - type: entities
+        title: Living Room Lights
+        show_header_toggle: false
+        entities:
+          - entity: light.living
+            type: custom:slider-entity-row
+            toggle: false
+            icon: mdi:lightbulb
+            name: Living

@@ -1,0 +1,21 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="36" height="36" viewBox="0 0 36 36" id="svg4" sodipodi:docname="background.svg" inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata id="metadata10">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs id="defs8">
+    <linearGradient inkscape:collect="always" id="linearGradient4555">
+      <stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop4551"></stop>
+      <stop style="stop-color:#ffffff;stop-opacity:1" offset="1" id="stop4553"></stop>
+    </linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient4555" id="linearGradient4557" x1="-22.128744" y1="0.76356542" x2="-22.169491" y2="-3.9404411" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.6685601,0,0,1.6766889,53.463973,6.3200141)"></linearGradient>
+  </defs>
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="2560" inkscape:window-height="1377" id="namedview6" showgrid="false" inkscape:zoom="9.8333333" inkscape:cx="-0.24161172" inkscape:cy="21.771385" inkscape:window-x="1912" inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="svg4"></sodipodi:namedview>
+  <rect style="opacity:1;fill:url(#linearGradient4557);fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="rect4549" width="35" height="35" x="0.5" y="0.5" rx="5.3510938" ry="5.750865"></rect>
+  <path d="M12,2C8.13,2 5,5.13 5,9C5,11.38 6.19,13.47 8,14.74V17C8,17.55 8.45,18 9,18H15C15.55,18 16,17.55 16,17V14.74C17.81,13.47 19,11.38 19,9C19,5.13 15.87,2 12,2M9,21C9,21.55 9.45,22 10,22H14C14.55,22 15,21.55 15,21V20H9V21Z" transform="translate(6,6)" style="fill:#ffffff" id="path_fg"></path>
+</svg>

@@ -1,0 +1,26 @@
+title: Home
+icon: mdi:server-network
+
+cards:
+  - type: vertical-stack
+    cards:
+      - type: custom:compact-custom-header
+      - type: horizontal-stack
+        cards:
+              - type: sensor
+                entity: sensor.rt_ac52u_kbyte_sec_received
+                graph: line
+                hours_to_show: 48
+                line_color: "#039be5"
+                name: Download
+              - type: sensor
+                entity: sensor.rt_ac52u_kbyte_sec_sent
+                graph: line
+                hours_to_show: 48
+                line_color: "#039be5"
+                name: Upload
+      - type: custom:tracker-card
+        title:
+        trackers:
+          - sensor.custom_card_tracker
+          - sensor.custom_component_tracker

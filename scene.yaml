@@ -1,0 +1,25 @@
+
+  - platform: knx
+    name: TV_kijken
+    address: 15/0/11
+    scene_number: 10
+
+  - platform: knx
+    name: TV_kijken_keuken_uit
+    address: 15/0/12
+    scene_number: 11
+  
+  - platform: knx
+    name: Keuken_uit
+    address: 15/0/10
+    scene_number: 9
+  
+  - platform: knx
+    name: Eten
+    address: 15/0/6
+    scene_number: 5
+  
+  - platform: knx
+    name: Koken
+    address: 15/0/5
+    scene_number: 4

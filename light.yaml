@@ -1,0 +1,64 @@
+
+  - platform: knx
+    name: Dampkapverlichting
+    address: 0/0/18
+    state_address: 0/1/18
+    brightness_address: 0/3/18
+    brightness_state_address: 0/4/18
+    icon: mdi:lightbulb
+
+  - platform: knx
+    name: Eettafel
+    address: 0/0/19
+    state_address: 0/1/19
+    brightness_address: 0/3/19
+    brightness_state_address: 0/4/19
+    icon: mdi:lightbulb
+
+  - platform: knx
+    name: Eethoek_muur
+    address: 0/0/20
+    state_address: 0/1/20
+    brightness_address: 0/3/20
+    brightness_state_address: 0/4/20
+    icon: mdi:lightbulb
+
+  - platform: knx
+    name: Living
+    address: 0/0/21
+    state_address: 0/1/21
+    brightness_address: 0/3/21
+    brightness_state_address: 0/4/21
+    icon: mdi:lightbulb
+
+  - platform: knx
+    name: Zithoek_muur
+    address: 0/0/22
+    state_address: 0/1/22
+    brightness_address: 0/3/22
+    brightness_state_address: 0/4/22
+    icon: mdi:lightbulb
+
+  - platform: knx
+    name: Vide
+    address: 0/0/23
+    state_address: 0/1/23
+    brightness_address: 0/3/23
+    brightness_state_address: 0/4/23
+    icon: mdi:lightbulb
+
+  - platform: knx
+    name: Master_bedroom_muur
+    address: 0/0/103
+    state_address: 0/1/103
+    brightness_address: 0/3/103
+    brightness_state_address: 0/4/103
+    icon: mdi:lightbulb
+
+  - platform: knx
+    name: Badkamer
+    address: 0/0/104
+    state_address: 0/1/104
+    brightness_address: 0/3/104
+    brightness_state_address: 0/4/104
+    icon: mdi:lightbulb

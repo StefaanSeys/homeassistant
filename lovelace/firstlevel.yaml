@@ -1,0 +1,76 @@
+title: Verdieping
+panel: true
+cards:   
+  - type: custom:styling-layout-card
+    column_num: 2
+    styles:
+      - maxWidth: "500px"
+        minWidth: "500px"
+        flexBasis: "500px"
+        marginLeft: "40px"
+      - maxWidth: "10000px"
+        flexBasis: auto
+    layout: horizontal
+    cards:
+    - type: vertical-stack
+      cards:
+        - type: custom:compact-custom-header
+        - type: entities
+          title: Scenes
+          show_header_toggle: false
+          entities:
+            - entity: scene.tv_kijken
+            - entity: scene.tv_kijken_keuken_uit
+            - type: call-service
+              name: Paniek
+              icon: mdi:alarm-light
+              action_name: "Panic!"
+              service: switch.turn_on
+              service_data:
+                entity_id: switch.paniek
+            - type: call-service
+              name: Alles uit
+              icon: mdi:close-circle-outline
+              action_name: "Uit"
+              service: switch.turn_off
+              service_data:
+                entity_id: switch.alles_uit
+            - type: call-service
+              name: Beneden uit
+              icon: mdi:close-circle-outline
+              action_name: "Uit"
+              service: switch.turn_off
+              service_data:
+                entity_id: switch.beneden_uit            
+              
+
+    - type: vertical-stack    
+      cards: 
+        - type: custom:compact-custom-header
+        - type: custom:plan-coordinates                    
+        - type: picture-elements
+          image: /local/images/verdieping6.jpg
+          elements:
+            - type: state-icon
+              entity: light.living           
+              tap_action: 
+                action: toggle
+              style:              
+                left: 10%
+                top: 10%
+                "--paper-item-icon-color": grey
+                "--paper-item-icon-active-color": yellow
+            - type: image
+              entity: light.living           
+              tap_action: 
+                action: more-info
+              state_image:
+                "on": /local/images/lightbulb-on.svg
+                "off": /customcards/images/lightbulb.svg
+              style:              
+                left: 55%
+                top: 63%
+                width: 50px
+              state_filter:
+                "on":  sepia(1) saturate(12) hue-rotate(0deg)
+                "off": invert(0.2)

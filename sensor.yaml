@@ -1,0 +1,29 @@
+  - platform: knx
+    name: Living
+    address: '4/2/0'
+    type: 'temperature'
+
+  - platform: knx
+    name: Badkamer
+    address: '4/2/1'
+    type: 'temperature'
+
+  - platform: knx
+    name: Master_Bedroom
+    address: '4/2/2'
+    type: 'temperature'
+
+  - platform: knx
+    name: Slaapkamer_Nora
+    address: '4/2/3'
+    type: 'temperature'
+
+  - platform: knx
+    name: Slaapkamer_Ella
+    address: '4/2/4'
+    type: 'temperature'
+
+  - platform: knx
+    name: Bureau
+    address: '4/2/4'
+    type: 'temperature'
