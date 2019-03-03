@@ -1,0 +1,7 @@
+- platform: knx
+  name: "Raam_3_Hoog"
+  move_long_address: '3/0/2'
+  move_short_address: '3/1/2'  
+  position_state_address: '3/2/2'
+  travelling_time_down: 33
+  travelling_time_up: 36

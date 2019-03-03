@@ -25,6 +25,7 @@ cards:
             toggle: false
             icon: mdi:lightbulb
             name: Living
+          - entity: cover.raam_3_hoog
             
   - type: vertical-stack
     cards:

@@ -311,3 +311,38 @@ cards:
                 top: 63%
                 "--paper-item-icon-color": lightgreen
                 "--paper-item-icon-active-color": "#ba1818"
+            - type: state-icon
+              entity: binary_sensor.achterdeur
+              style:
+                left: 15.5%
+                top: 28%
+                '--paper-item-icon-color': lightgreen
+                '--paper-item-icon-active-color': '#ba1818'
+            - type: state-icon
+              entity: binary_sensor.zithoek
+              style:
+                left: 72%
+                top: 57%
+                '--paper-item-icon-color': lightgreen
+                '--paper-item-icon-active-color': '#ba1818'
+            - type: state-icon
+              entity: binary_sensor.eethoek
+              style:
+                left: 48%
+                top: 96%
+                '--paper-item-icon-color': lightgreen
+                '--paper-item-icon-active-color': '#ba1818'
+            - type: state-icon
+              entity: binary_sensor.kelderdeur
+              style:
+                left: 50%
+                top: 46%
+                '--paper-item-icon-color': lightgreen
+                '--paper-item-icon-active-color': '#ba1818'
+            - type: state-icon
+              entity: binary_sensor.garagepoort
+              style:
+                left: 84%
+                top: 35%
+                '--paper-item-icon-color': lightgreen
+                '--paper-item-icon-active-color': '#ba1818'
