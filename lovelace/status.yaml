@@ -8,17 +8,64 @@ cards:
       - type: horizontal-stack
         cards:
               - type: sensor
-                entity: sensor.rt_ac52u_kbyte_sec_received
+                entity: sensor.nas_network_down_eth0
                 graph: line
-                hours_to_show: 48
-                line_color: "#039be5"
+                hours_to_show: 24
                 name: Download
               - type: sensor
-                entity: sensor.rt_ac52u_kbyte_sec_sent
+                entity: sensor.nas_network_up_eth0
                 graph: line
-                hours_to_show: 48
-                line_color: "#039be5"
+                hours_to_show: 24
                 name: Upload
+      - type: horizontal-stack
+        cards:
+              - type: sensor
+                entity: sensor.nas_cpu_usage
+                graph: line
+                hours_to_show: 24
+                name: CPU Usage
+              - type: sensor
+                entity: sensor.nas_memory_usage
+                graph: line
+                hours_to_show: 24
+                name: Memory Usage
+
+
+      - type: horizontal-stack
+        cards:
+              - type: gauge
+                entity: sensor.nas_temperature_drive_0_1
+                name: Disk 1
+                severity:
+                  green: 0
+                  yellow: 45
+                  red: 65
+              - type: gauge
+                entity: sensor.nas_temperature_drive_0_2
+                name: Disk 2
+                severity:
+                  green: 0
+                  yellow: 45
+                  red: 65
+      - type: horizontal-stack
+        cards:
+              - type: gauge
+                entity: sensor.nas_temperature_drive_0_3
+                name: Disk 3
+                severity:
+                  green: 0
+                  yellow: 45
+                  red: 65
+              - type: gauge
+                entity: sensor.nas_temperature_drive_0_4
+                name: Disk 4
+                severity:
+                  green: 0
+                  yellow: 45
+                  red: 65
+  
+  - type: vertical-stack
+    cards:
       - type: custom:tracker-card
         title:
         trackers:

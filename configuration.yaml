@@ -64,10 +64,6 @@ sun:
 # Allow diagnosing system problems
 system_health:
 
-# Sensors
-sensor:
-  # Weather prediction
-  - platform: yr
 
 # Text to speech
 tts:
@@ -86,13 +82,12 @@ knx:
 
 switch: !include switch.yaml
 light: !include light.yaml
-sensor: !include sensor.yaml
 binary_sensor: !include binary_sensor.yaml
 scene: !include scene.yaml
 cover: !include cover.yaml
-
-upnp:
+sensor: !include sensor.yaml
 
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+

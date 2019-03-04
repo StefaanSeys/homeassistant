@@ -1,3 +1,21 @@
+  # Weather prediction
+  - platform: yr
+
+  - platform: qnap
+    host: 192.168.1.200
+    port: 443
+    username: !secret qnap_user
+    password: !secret qnap_pwd
+    verify_ssl: false
+    ssl: true
+    monitored_conditions:
+      - status
+      - cpu_usage
+      - memory_percent_used
+      - network_tx
+      - network_rx
+      - drive_temp
+
   - platform: knx
     name: Living
     address: '4/2/0'
